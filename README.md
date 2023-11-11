@@ -12,6 +12,7 @@ MGInstagram is a iOS Utility for posting Images to Instagram from your app.
 //Returns YES if user does have the app
 [MGInstagram isAppInstalled];
 
+
 //Post UIImage to Instagram
 //Presents an "openInMenu" model in the UIView specified  
 //User is only given Instagram as an option
@@ -35,3 +36,26 @@ else
    	NSLog(@"Error Instagram is either not installed or image is incorrect size");
 }
 ```
+//Checks to see user has the instagram app installed
+//Returns YES if user does have the app
+[MGInstagram isAppInstalled];
+
+//Post UIImage to Instagram
+//Presents an "openInMenu" model in the UIView specified  
+//User is only given Instagram as an option
+[MGInstagram postImage:image inView:self.view];
+
+//Checks if the UIImage is the correct size to be interpreted by the instagram app
+//Returns YES if correct size
+[MGInstagram isImageCorrectSize:image];//Checks to see user has the instagram app installed
+//Returns YES if user does have the app
+[MGInstagram isAppInstalled];
+
+//Post UIImage to Instagram
+//Presents an "openInMenu" model in the UIView specified  
+//User is only given Instagram as an option
+[MGInstagram postImage:image inView:self.view];
+
+//Checks if the UIImage is the correct size to be interpreted by the instagram app
+//Returns YES if correct size
+[MGInstagram isImageCorrectSize:image];v
